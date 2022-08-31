@@ -1,0 +1,38 @@
+.products__list {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .products__item {
+    margin: 10px;
+    padding: 5px;
+  }
+
+  .products__item-img-wrp {
+    max-width: 250px;
+    max-height: 130px;
+    margin: 0 auto;
+  }
+
+  .products__item-img {
+    width: 100%;
+  }
+
+  .products__item-title {
+    width: 250px;
+    padding-bottom: 5px;
+  }
+
+  .products__item-description {
+    width: 250px;
+    text-align: justify;
+    letter-spacing: 0.2em;
+    padding-bottom: 5px;
+  }
+
+  .products__item-price {
+    padding-bottom: 5px;
+}
+}
